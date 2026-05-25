@@ -1,0 +1,47 @@
+# ======================
+# ConversationBot Logger
+# .gitignore
+# ======================
+
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Virtual environments ─────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment variables & secrets ──────────────────
+.env
+.env.local
+*.env
+
+# ── Log files ────────────────────────────────────────
+# Bot logs contain runtime details — don't commit them
+*.log
+bot.log
+logs/
+
+# ── Conversation history ──────────────────────────────
+# Personal chat data — keep off GitHub
+history.json
+*.json
+
+# ── OS files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ──────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Temporary files ──────────────────────────────────
+*.tmp
+*.temp
+*.bak
